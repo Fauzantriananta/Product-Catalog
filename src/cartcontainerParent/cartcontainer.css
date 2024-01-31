@@ -1,0 +1,31 @@
+.cart-container{
+    position: relative;
+    display: flex;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+
+.cart-container img{
+    width: 40px;
+    margin: 0px 10px 0px 33.5px;
+}
+
+.cart-container :hover{
+    color: #d92c2f;
+}
+
+.cart-text{
+    display: flex;
+    color: #625F6E;
+    font-size: 14px;
+}
+
+.cart-text p{
+    display: flex;
+}
+
+.cart-text .text-light{
+    font-size: 13px;
+    font-weight: 350;
+}

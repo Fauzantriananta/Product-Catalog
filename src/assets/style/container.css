@@ -1,0 +1,8 @@
+.container {
+    position: relative;
+    display: flex;
+}
+
+.main-content {
+    background-color: #f7f7f7;
+}

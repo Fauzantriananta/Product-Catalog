@@ -1,0 +1,185 @@
+.sidebar {
+    background-color: #ffffff;
+    width: 240px;
+    padding: 24px;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px 0px rgb(145 143 143 / 11%);
+    flex-direction: column;
+    z-index: 100;
+    position: fixed;
+}
+
+.main-content {
+    flex-grow: 1;
+    height: 210vh;
+    margin-left: 240px;
+}
+
+
+.sidebar .header .logo {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin: -10px 0 -12px 0;
+    box-sizing: border-box;
+} 
+
+.sidebar .header .logo img {
+    width: 100%;
+    margin-bottom: 9%;
+} 
+
+
+.sidebar .main .list-item .description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.5px;
+    line-height: 2px;
+    text-align: center;
+    color: #625F6E;
+    cursor: pointer;
+}
+
+.sidebar .main .list-item .description:hover{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.5px;
+    line-height: 2px;
+    text-align: center;
+}
+
+.sidebar .main .list-item .description:hover a{
+    color: #ffffff;
+}
+
+
+.sidebar .main .list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 6px;
+    border-radius: 4px;
+    width: 195px;
+    box-sizing: border-box;
+    transition: all ease-in .1s
+}
+
+.sidebar .main .list-item:hover {
+    background: #d92c2f;
+    cursor: pointer;
+    transition: all ease-in .1s
+}
+
+.sidebar .main .sub-menu a{
+    color: #625F6E;
+}
+
+.sidebar .main .sub-menu .option1 {
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 6px;
+    border-radius: 4px;
+    width: 195px;
+    box-sizing: border-box;
+}
+
+.sidebar .main .sub-menu .option1:hover {
+    background: #d92c2f;
+    width: 100%;
+    cursor: pointer;
+}
+
+.sidebar .main .sub-menu .option1:hover a{
+    color: #ffffff;
+}
+
+.sidebar .main .option1 .sub-menu li{
+    list-style-position: inside;
+} 
+
+
+.sidebar .main .sub-menu .option2 {
+    padding: 15px 70px 14px 0px;
+    margin-top: -8px;
+    color: #625F6E;
+    /*display: none;*/
+    transition: all ease-in .1s
+}
+
+.sidebar .main .option2:hover {
+    background: #d92c2f;
+    transition: all ease-in .1s
+}
+
+
+.sidebar .main .sub-menu .option3 {
+    padding: 15px 70px 14px 0px;
+    margin-top: -8px;
+    color: #625F6E;
+    /*display: none;*/
+    transition: all ease-in .1s
+}
+
+.sidebar .main .option3:hover {
+    background: #d92c2f;
+    transition: all ease-in .1s
+}
+
+
+.sidebar .main .sub-menu .option4 {
+    padding: 15px 70px 14px 0px;
+    margin-top: -8px;
+    color: #625F6E;
+    /*display: none;*/
+    transition: all ease-in .1s
+}
+
+.sidebar .main .option4:hover {
+    background: #d92c2f;
+    transition: all ease-in .1s
+}
+
+
+.sidebar .main .sub-menu .option5 {
+    padding: 15px 70px 14px 0px;
+    margin-top: -8px;
+    color: #625F6E;
+    /*display: none;*/
+    transition: all ease-in .1s
+}
+
+.sidebar .main .option5:hover {
+    background: #d92c2f;
+    transition: all ease-in .1s
+}
+
+
+.sidebar .main .sub-menu .option6 {
+    padding: 15px 70px 14px 0px;
+    margin-top: -8px;
+    color: #625F6E;
+    /*display: none;*/
+    transition: all ease-in .1s
+}
+
+.sidebar .main .option7:hover {
+    background: #d92c2f;
+    transition: all ease-in .1s
+}
+
+
+.sidebar .main .sub-menu .option7 {
+    padding: 15px 70px 14px 0px;
+    margin-top: -8px;
+    color: #625F6E;
+    /*display: none;*/
+    transition: all ease-in .1s
+}
+
+.sidebar .main .option7:hover {
+    background: #d92c2f;
+    transition: all ease-in .1s
+}

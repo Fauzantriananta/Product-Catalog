@@ -1,0 +1,35 @@
+.halaman {
+    display: flex;
+    font-size: 23px;
+    color: black;
+    font-weight: 600;
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.home-calc {
+    display: flex;
+    justify-content: left;
+    margin-left: 35px;
+    align-items: center;
+}
+
+.logo-home img{
+   width: 15px;
+}
+
+.home-calc img{
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.home-calc .cursor-right{
+    margin-bottom: 3px;
+}
+
+.calc {
+    font-size: 14px;
+    color: #625F6E;
+}
+

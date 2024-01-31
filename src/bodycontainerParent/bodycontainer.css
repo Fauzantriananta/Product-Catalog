@@ -1,0 +1,162 @@
+.banner {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    background-color: #ffffff;
+    width: auto;
+    height: auto;
+    padding: 0px 30px 25px 0px;
+    margin: 15px 0px 0px 33.5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 24px 0 rgba(34,41,47,.1);
+}
+
+select{
+    display: flex;
+    color: #625F6E;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    width: 500px;
+    height: 40px;
+    margin: 15px 15px 0px 15px;
+}
+
+select option{
+    text-align: center;
+    justify-content: flex-start;
+    font-size: 14px;
+}
+
+
+.body-card{
+position: relative;
+display: flex;
+flex-direction: column;
+padding-left: 32px;
+}
+
+.zona-daerah{
+    border: 1px solid rgba(98, 94, 110, 0.2);
+    border-radius: 5px;
+    margin-top: 18px;
+    padding: 0px 2px 18px 0px;
+}
+
+.custom {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+}
+
+.zona-daerah .custom {
+    display: flex;
+    flex-direction: row;
+}
+
+.aktivasi{
+    border: 1px solid rgba(98, 94, 110, 0.2);
+    border-radius: 5px;
+    margin-top: 18px;
+    padding: 18px 2px 38px 0px;
+}
+
+.fitur{
+    border: 1px solid rgba(98, 94, 110, 0.2);
+    border-radius: 5px;
+    margin-top: 18px;
+    padding: 18px 2px 38px 0px;
+}
+
+
+.details p{
+    padding: 22px 0px 0px 0px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #625F6E;
+    white-space: nowrap;
+}
+
+.banner-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.body-card-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hasil-add {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.add-items {
+   display: flex; 
+   margin-top: 10px;
+}
+
+.button-min {
+    width: 25px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    background-color: red;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    cursor: pointer;
+}
+
+.button-plus {
+    width: 25px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    padding-bottom: 8px;
+    color: #ffffff;
+    background-color: red;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+}
+
+.add-items span {
+    display: flex;
+    align-items: center;
+    border: 1px solid #d92c2f;
+    padding: 4px 12px 5px 12px;
+}
+
+.total-rupiah {
+    display: flex;
+    color: #625F6E; 
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.tambah-item {
+    margin-top: 10px;
+}
+
+.add-item {
+    display: block;
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #d92c2f;
+    border: none;
+    border-radius: 8px;
+    width: 80px;
+    height: 32px;
+    cursor: pointer;
+}
